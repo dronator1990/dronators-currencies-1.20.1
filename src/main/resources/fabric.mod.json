@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "dronators_currencies",
+	"version": "${version}",
+	"name": "dronator's currencies",
+	"description": "Vanilla freindly mod that adds basic currencies to the game",
+	"authors": [
+		"dronator1990",
+		"Noxtify_"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/dronators-currencies/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.dronator.dronators_currencies.DronatorsCurrencies"
+		],
+		"client": [
+			"net.dronator.dronators_currencies.DronatorsCurrenciesClient"
+		],
+		"fabric-datagen": [
+			"net.dronator.dronators_currencies.DronatorsCurrenciesDataGenerator"
+		]
+	},
+	"mixins": [
+		"dronators-currencies.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
