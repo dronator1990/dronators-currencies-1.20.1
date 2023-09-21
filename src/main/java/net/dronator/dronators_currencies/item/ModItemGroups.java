@@ -1,6 +1,7 @@
 package net.dronator.dronators_currencies.item;
 
 import net.dronator.dronators_currencies.DronatorsCurrencies;
+import net.dronator.dronators_currencies.block.ModBlocks;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.Item;
@@ -33,10 +34,10 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_SILVER);
                         entries.add(ModItems.SILVER_INGOT);
                         entries.add(ModItems.SILVER_NUGGET);
-                        entries.add(ModItems.SILVER_ORE);
-                        entries.add(ModItems.DEEPSLATE_SILVER_ORE);
-                        entries.add(ModItems.RAW_SILVER_BLOCK);
-                        entries.add(ModItems.SILVER_BLOCK);
+                        entries.add(ModBlocks.SILVER_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_SILVER_ORE);
+                        entries.add(ModBlocks.RAW_SILVER_BLOCK);
+                        entries.add(ModBlocks.SILVER_BLOCK);
                     }).build());
 
     public static void  registerItemGroups() {

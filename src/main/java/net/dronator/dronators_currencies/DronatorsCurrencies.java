@@ -1,5 +1,6 @@
 package net.dronator.dronators_currencies;
 
+import net.dronator.dronators_currencies.block.ModBlocks;
 import net.dronator.dronators_currencies.item.ModItemGroups;
 import net.dronator.dronators_currencies.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -13,8 +14,9 @@ public class DronatorsCurrencies implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 
 		ModItems.registerModItems();
-		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlock();
 	}
 }

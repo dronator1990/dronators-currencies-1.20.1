@@ -23,13 +23,9 @@ public class ModItems {
     //public static final Item COPPER_COIN = registerItem("iron_coin_stack", new Item((new FabricItemSettings())));
     //public static final Item COPPER_COIN_STACK = registerItem("iron_coin_stack", new Item((new FabricItemSettings())));
 
-    public static final Item DEEPSLATE_SILVER_ORE = registerItem("deepslate_silver_ore", new Item((new FabricItemSettings())));
-    public static final Item SILVER_ORE = registerItem("silver_ore", new Item((new FabricItemSettings())));
     public static final Item RAW_SILVER = registerItem("raw_silver", new Item((new FabricItemSettings())));
     public static final Item SILVER_NUGGET = registerItem("silver_nugget", new Item((new FabricItemSettings())));
     public static final Item SILVER_INGOT = registerItem("silver_ingot", new Item((new FabricItemSettings())));
-    public static final Item SILVER_BLOCK = registerItem("silver_block", new Item((new FabricItemSettings())));
-    public static final Item RAW_SILVER_BLOCK = registerItem("raw_silver_block", new Item((new FabricItemSettings())));
     public static final Item SILVER_COIN = registerItem("silver_coin", new Item((new FabricItemSettings())));
     public static final Item SILVER_COIN_STACK = registerItem("silver_coin_stack", new Item((new FabricItemSettings())));
 

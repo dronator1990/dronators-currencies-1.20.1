@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "donators_currencies:item/raw_silver"
+    "layer0": "dronators_currencies:item/raw_silver"
   }
 }
