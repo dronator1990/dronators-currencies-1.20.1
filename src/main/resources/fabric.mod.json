@@ -9,11 +9,11 @@
 		"Noxtify_"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "",
+		"sources": ""
 	},
 	"license": "MIT",
-	"icon": "assets/dronators-currencies/icon.png",
+	"icon": "assets/dronators_currencies/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

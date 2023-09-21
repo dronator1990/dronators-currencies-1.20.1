@@ -16,10 +16,10 @@
   "item.dronators_currencies.silver_nugget": "Silver Nugget",
   "item.dronators_currencies.raw_silver": "Raw Silver",
   "item.dronators_currencies.silver_ingot": "Silver Ingot",
-  "item.dronators_currencies.silver_block": "Block of Silver",
-  "item.dronators_currencies.raw_silver_block": "Block of Raw Silver",
-  "item.dronators_currencies.silver_ore": "Silver Ore",
-  "item.dronators_currencies.deepslate_silver_ore": "Deepslate Silver Ore",
+  "block.dronators_currencies.silver_block": "Block of Silver",
+  "block.dronators_currencies.raw_silver_block": "Block of Raw Silver",
+  "block.dronators_currencies.silver_ore": "Silver Ore",
+  "block.dronators_currencies.deepslate_silver_ore": "Deepslate Silver Ore",
 
   "itemgroup.dronators_currencies": "dronator's currencies"
 }

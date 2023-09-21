@@ -20,8 +20,8 @@ public class ModItemGroups {
             new Identifier(MOD_ID, "dronators_currencies"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.dronators_currencies"))
                     .icon(() -> new ItemStack(ModItems.IRON_COIN_STACK)).entries((displayContext, entries) -> {
-                        //entries.add(ModItems.COPPER_COIN);
-                        //entries.add(ModItems.COPPER_COIN_STACK);
+                        entries.add(ModItems.COPPER_COIN);
+                        entries.add(ModItems.COPPER_COIN_STACK);
                         entries.add(ModItems.IRON_COIN);
                         entries.add(ModItems.IRON_COIN_STACK);
                         entries.add(ModItems.GOLD_COIN);
