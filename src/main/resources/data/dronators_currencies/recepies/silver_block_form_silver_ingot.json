@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "dronatorscurrencies:silver_ingot"
+    }
+  },
+  "result": {
+    "item": "dronatorscurrencies:silver_block"
+  }
+}

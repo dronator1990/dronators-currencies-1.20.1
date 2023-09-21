@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapless",
+  "ingrediennts": [
+    {
+      "item": "dronatorscurrencies:silver_ingot"
+    }
+  ],
+  "result": {
+    "item": "dronatorscurrencies:silver_nugget",
+    "count": 9
+  }
+}
