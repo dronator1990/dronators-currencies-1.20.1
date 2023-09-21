@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "donators_currencies:item/iron_coin_stack"
+  }
+}
