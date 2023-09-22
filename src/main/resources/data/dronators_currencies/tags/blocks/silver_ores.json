@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "dronators_currencies:silver_ore",
+    "dronators_currencies:deepslate_silver_ore"
+  ]
+}
