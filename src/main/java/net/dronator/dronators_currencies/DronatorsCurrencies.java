@@ -3,6 +3,7 @@ package net.dronator.dronators_currencies;
 import net.dronator.dronators_currencies.block.ModBlocks;
 import net.dronator.dronators_currencies.item.ModItemGroups;
 import net.dronator.dronators_currencies.item.ModItems;
+import net.dronator.dronators_currencies.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -18,5 +19,7 @@ public class DronatorsCurrencies implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlock();
+
+		ModWorldGeneration.generateModWorldGen();
 	}
 }
