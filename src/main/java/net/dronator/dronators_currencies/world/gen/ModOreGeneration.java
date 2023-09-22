@@ -1,8 +1,8 @@
 package net.dronator.dronators_currencies.world.gen;
 
-import net.dronator.dronators_currencies.world.ModPlacedFeatures;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
+import net.dronator.dronators_currencies.world.ModPlacedFeatures;
 import net.minecraft.world.gen.GenerationStep;
 
 public class ModOreGeneration {

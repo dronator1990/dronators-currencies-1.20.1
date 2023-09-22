@@ -1,15 +1,13 @@
 package net.dronator.dronators_currencies.world;
-
+import net.dronator.dronators_currencies.DronatorsCurrencies;
+import net.dronator.dronators_currencies.block.ModBlocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.gen.YOffset;
-import net.minecraft.world.gen.feature.ConfiguredFeature;
-import net.minecraft.world.gen.feature.Feature;
-import net.minecraft.world.gen.feature.FeatureConfig;
-import net.minecraft.world.gen.feature.PlacedFeature;
+import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.placementmodifier.HeightRangePlacementModifier;
 import net.minecraft.world.gen.placementmodifier.PlacementModifier;
 
@@ -18,15 +16,15 @@ import java.util.List;
 import static net.dronator.dronators_currencies.DronatorsCurrencies.MOD_ID;
 
 public class ModPlacedFeatures {
-    public static final RegistryKey<PlacedFeature> SILVER_ORE_PLACED_KEY = registerKey("citrine_ore_placed");
+    public static final RegistryKey<PlacedFeature> SILVER_ORE_PLACED_KEY = registerKey("silver_ore_placed");
 
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
         register(context, SILVER_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.SILVER_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(8, // Veins per Chunk
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(-32), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, // Veins per Chunk
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {
