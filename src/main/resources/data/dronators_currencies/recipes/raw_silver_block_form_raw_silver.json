@@ -3,7 +3,7 @@
   "group": "silver",
   "key": {
     "#": {
-      "item": "dronators_currencies:silver_nugget"
+      "item": "dronators_currencies:raw_e silver"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
     "###"
   ],
   "result": {
-    "item": "dronators_currencies:silver_ingot"
+    "item": "dronators_currencies:raw_silver_block"
   }
 }

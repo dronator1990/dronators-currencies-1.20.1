@@ -9,8 +9,8 @@
 		"Noxtify_"
 	],
 	"contact": {
-		"homepage": "",
-		"sources": ""
+		"homepage": "https://modrinth.com/mod/dronators-currencies",
+		"sources": "https://github.com/dronator1990/dronators-currencies-1.20.1"
 	},
 	"license": "MIT",
 	"icon": "assets/dronators_currencies/icon.png",

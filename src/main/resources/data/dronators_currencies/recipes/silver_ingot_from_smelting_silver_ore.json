@@ -6,5 +6,5 @@
   "ingredient": {
     "item": "dronators_currencies:silver_ore"
   },
-  "result": "dronators_currencies:silver:ingot"
+  "result": "dronators_currencies:silver_ingot"
 }

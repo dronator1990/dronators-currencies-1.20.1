@@ -1,12 +1,13 @@
 {
-  "type": "minecraft:crafting_shapless",
-  "ingrediennts": [
+  "type": "minecraft:crafting_shapeless",
+  "group": "silver",
+  "ingredients": [
     {
-      "item": "dronatorscurrencies:silver_ingot"
+      "item": "dronators_currencies:silver_ingot"
     }
   ],
   "result": {
-    "item": "dronatorscurrencies:silver_nugget",
+    "item": "dronators_currencies:silver_nugget",
     "count": 9
   }
 }

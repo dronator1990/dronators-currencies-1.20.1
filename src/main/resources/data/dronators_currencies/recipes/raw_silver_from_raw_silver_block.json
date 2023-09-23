@@ -3,11 +3,11 @@
   "group": "silver",
   "ingredients": [
     {
-      "item": "dronators_currencies:silver_block"
+      "item": "dronators_currencies:raw_silver_block"
     }
   ],
   "result": {
-    "item": "dronators_currencies:silver_ingot",
+    "item": "dronators_currencies:raw_silver",
     "count": 9
   }
 }
