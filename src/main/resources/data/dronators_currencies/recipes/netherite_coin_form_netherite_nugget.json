@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "netherite_coin",
+  "key": {
+    "#": {
+      "item": "dronators_currencies:netherite_nugget"
+    }
+  },
+  "pattern": [
+    "## ",
+    "## ",
+    "   "
+  ],
+  "result": {
+    "item": "dronators_currencies:netherite_coin"
+  }
+}

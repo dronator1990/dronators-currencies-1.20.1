@@ -38,6 +38,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_SILVER_ORE);
                         entries.add(ModBlocks.RAW_SILVER_BLOCK);
                         entries.add(ModBlocks.SILVER_BLOCK);
+                        entries.add(ModItems.COPPER_NUGGET);
+                        entries.add(ModItems.NETHERITE_NUGGET);
                     }).build());
 
     public static void  registerItemGroups() {

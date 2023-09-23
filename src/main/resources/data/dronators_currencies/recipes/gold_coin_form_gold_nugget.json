@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "gold_coín",
+  "key": {
+    "#": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "pattern": [
+    "## ",
+    "## ",
+    "   "
+  ],
+  "result": {
+    "item": "dronators_currencies:gold_coin"
+  }
+}

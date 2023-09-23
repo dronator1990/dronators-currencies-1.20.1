@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "copper",
+  "key": {
+    "#": {
+      "item": "dronators_currencies:copper_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:copper_ingot"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dronators_currencies:item/copper_nugget"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "netherite_coin",
+  "ingredients": [
+    {
+      "item": "dronators_currencies:netherite_coin_stack"
+    }
+  ],
+  "result": {
+    "item": "dronators_currencies:netherite_coin",
+    "count": 4
+  }
+}

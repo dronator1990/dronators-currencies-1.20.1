@@ -4,10 +4,12 @@
 
   "item.dronators_currencies.copper_coin": "Copper Coin",
   "item.dronators_currencies.copper_coin_stack": "Copper Coin Stack",
+  "item.dronators_currencies.copper_nugget": "Copper Nugget",
 
   "item.dronators_currencies.gold_coin": "Gold Coin",
   "item.dronators_currencies.gold_coin_stack": "Gold Coin Stack",
 
+  "item.dronators_currencies.netherite_nugget": "Netherite Nugget",
   "item.dronators_currencies.netherite_coin": "Netherite Coin",
   "item.dronators_currencies.netherite_coin_stack": "Netherite Coin Stack",
 

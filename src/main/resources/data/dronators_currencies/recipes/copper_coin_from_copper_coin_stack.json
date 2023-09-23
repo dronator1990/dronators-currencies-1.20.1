@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "copper_coin",
+  "ingredients": [
+    {
+      "item": "dronators_currencies:copper_coin_stack"
+    }
+  ],
+  "result": {
+    "item": "dronators_currencies:copper_coin",
+    "count": 4
+  }
+}
