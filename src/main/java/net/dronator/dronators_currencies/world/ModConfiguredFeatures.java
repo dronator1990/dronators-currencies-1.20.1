@@ -1,8 +1,7 @@
 package net.dronator.dronators_currencies.world;
 
-import net.dronator.dronators_currencies.DronatorsCurrencies;
 import net.dronator.dronators_currencies.block.ModBlocks;
-import net.minecraft.block.Blocks;
+import net.dronator.dronators_currencies.DronatorsCurrencies;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -13,8 +12,6 @@ import net.minecraft.util.Identifier;
 import net.minecraft.world.gen.feature.*;
 
 import java.util.List;
-
-import static net.dronator.dronators_currencies.DronatorsCurrencies.MOD_ID;
 
 public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> SILVER_ORE_KEY = registerKey("silver_ore");
@@ -28,11 +25,11 @@ public class ModConfiguredFeatures {
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.SILVER_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.DEEPSLATE_SILVER_ORE.getDefaultState()));
 
-        register(context, SILVER_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldSilverOres, 12));
+        register(context, SILVER_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldSilverOres, 6));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
-        return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, new Identifier(MOD_ID, name));
+        return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, new Identifier(DronatorsCurrencies.MOD_ID, name));
     }
 
     private static <FC extends FeatureConfig, F extends Feature<FC>> void register(Registerable<ConfiguredFeature<?, ?>> context,
