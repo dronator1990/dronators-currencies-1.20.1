@@ -34,20 +34,21 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.COPPER_NUGGET, RecipeCategory.MISC, Items.COPPER_INGOT);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.NETHERITE_NUGGET, RecipeCategory.MISC, Items.NETHERITE_INGOT);
 
-        offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, Items.IRON_NUGGET, ModItems.IRON_COIN);
-        offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModItems.IRON_COIN, ModItems.IRON_COIN_STACK);
+        offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModItems.IRON_COIN, Items.IRON_NUGGET);
+        offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModItems.IRON_COIN_STACK, ModItems.IRON_COIN);
         offerShapelessRecipe(exporter, ModItems.IRON_COIN, ModItems.IRON_COIN_STACK, "coin", 4);
 
-        offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, Items.GOLD_NUGGET, ModItems.GOLD_COIN);
-        offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModItems.GOLD_COIN, ModItems.GOLD_COIN_STACK);
+        offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModItems.GOLD_COIN, Items.GOLD_NUGGET);
+        offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModItems.GOLD_COIN_STACK, ModItems.GOLD_COIN);
         offerShapelessRecipe(exporter, ModItems.GOLD_COIN, ModItems.GOLD_COIN_STACK, "coin", 4);
 
-        offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModItems.NETHERITE_NUGGET, ModItems.NETHERITE_COIN);
-        offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModItems.NETHERITE_COIN, ModItems.NETHERITE_COIN_STACK);
+        offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModItems.NETHERITE_COIN, ModItems.NETHERITE_NUGGET);
+        offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModItems.NETHERITE_COIN_STACK, ModItems.NETHERITE_COIN);
         offerShapelessRecipe(exporter, ModItems.NETHERITE_COIN, ModItems.NETHERITE_COIN_STACK, "coin", 4);
 
-        offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModItems.SILVER_NUGGET, ModItems.SILVER_COIN);
-        offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModItems.SILVER_COIN, ModItems.SILVER_COIN_STACK);
+        offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModItems.SILVER_COIN, ModItems.SILVER_NUGGET);
+        offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModItems.SILVER_COIN_STACK, ModItems.SILVER_COIN);
         offerShapelessRecipe(exporter, ModItems.SILVER_COIN, ModItems.SILVER_COIN_STACK, "coin", 4);
+
     }
 }
