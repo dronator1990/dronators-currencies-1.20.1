@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "silver",
+  "ingredient": {
+    "item": "dronators_currencies:raw_silver"
+  },
+  "result": "dronators_currencies:silver_ingot"
+}

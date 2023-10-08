@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dronators_currencies:item/netherite_nugget"
+  }
+}

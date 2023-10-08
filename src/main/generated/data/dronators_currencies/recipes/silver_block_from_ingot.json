@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "silver_block",
+  "key": {
+    "#": {
+      "item": "dronators_currencies:silver_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "dronators_currencies:silver_block"
+  },
+  "show_notification": true
+}

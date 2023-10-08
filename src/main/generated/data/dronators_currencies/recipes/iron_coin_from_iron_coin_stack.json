@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "coin",
+  "ingredients": [
+    {
+      "item": "dronators_currencies:iron_coin_stack"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "dronators_currencies:iron_coin"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "dronators_currencies:silver_block",
+    "dronators_currencies:raw_silver_block",
+    "dronators_currencies:deepslate_silver_ore",
+    "dronators_currencies:silver_ore"
+  ]
+}
